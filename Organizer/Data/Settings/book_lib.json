@@ -1,0 +1,933 @@
+{
+    "Фотокнига Стандарт": {
+        "Фотокнига Стандарт 15x15  с утолщением": {
+            "short_name": "КС",
+            "book_format": "15x15",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x390",
+            "cover_carton": "145х153",
+            "page_material": "Fuji CA Matte 152x304",
+            "cover_canal": "205",
+            "page_canal": "214",
+            "spine": "2066",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 20x20  без утолщения": {
+            "short_name": "КС",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "240",
+            "page_canal": "205",
+            "spine": "2633",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 15x20 верт без утолщения": {
+            "short_name": "КС",
+            "book_format": "15x20в",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x390",
+            "cover_carton": "145x205",
+            "page_material": "Fuji CA Matte 203x305",
+            "cover_canal": "243",
+            "page_canal": "204",
+            "spine": "2072",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 20x20  с утолщением": {
+            "short_name": "КС",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "240",
+            "page_canal": "205",
+            "spine": "2633",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 20x30 верт с утолщением": {
+            "short_name": "КС",
+            "book_format": "20x30в",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Fuji CA Matte 305x402",
+            "cover_canal": "poli",
+            "page_canal": "207",
+            "spine": "2515",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 20x30 верт без утолщения": {
+            "short_name": "КС",
+            "book_format": "20x30в",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Fuji CA Matte 305x402",
+            "cover_canal": "poli",
+            "page_canal": "207",
+            "spine": "2515",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 20x30 гориз  без утолщения": {
+            "short_name": "КС",
+            "book_format": "30x20г",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x690",
+            "cover_carton": "293x205",
+            "page_material": "Fuji CA Matte 203x600",
+            "cover_canal": "242",
+            "page_canal": "275",
+            "spine": "3814",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт SILK 20x20  с утолщением 12": {
+            "short_name": "КС Silk",
+            "book_format": "20x20",
+            "book_option": "с/у1.2",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Silk 203x406",
+            "cover_canal": "240",
+            "page_canal": "208",
+            "spine": "2633",
+            "lamination": "гля"
+        },
+        "Фотокнига стандарт с кожаным корешком 20x20  без утолщения": {
+            "short_name": "КС",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "240",
+            "page_canal": "205",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 15x15  без утолщения": {
+            "short_name": "КС",
+            "book_format": "15x15",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x390",
+            "cover_carton": "145х153",
+            "page_material": "Fuji CA Matte 152x304",
+            "cover_canal": "205",
+            "page_canal": "214",
+            "spine": "2066",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт SILK 20x20  с утолщением": {
+            "short_name": "КС Silk",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Silk 203x406",
+            "cover_canal": "240",
+            "page_canal": "208",
+            "spine": "2633",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 15x20 верт с утолщением": {
+            "short_name": "КС",
+            "book_format": "15x20в",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x390",
+            "cover_carton": "145x205",
+            "page_material": "Fuji CA Matte 203x305",
+            "cover_canal": "243",
+            "page_canal": "204",
+            "spine": "2072",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 25x25  без утолщения": {
+            "short_name": "КС",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x600",
+            "cover_carton": "248x255",
+            "page_material": "Fuji CA Matte 254x512",
+            "cover_canal": "266",
+            "page_canal": "274",
+            "spine": "3283",
+            "lamination": "гля"
+        },
+        "Фотокнига стандарт с кожаным корешком 20x20  с ут 12": {
+            "short_name": "КС",
+            "book_format": "20x20",
+            "book_option": "с/у1.2",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "240",
+            "page_canal": "205",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 30x30  без утолщения": {
+            "short_name": "КС",
+            "book_format": "30x30",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x300",
+            "page_material": "Fuji CA Matte 305x610",
+            "cover_canal": "poli",
+            "page_canal": "276",
+            "spine": "3696",
+            "lamination": "гля"
+        },
+        "Фотокнига стандарт с кожаным корешком 25x25  с утолщением": {
+            "short_name": "КС",
+            "book_format": "25x25",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x600",
+            "cover_carton": "248x255",
+            "page_material": "Fuji CA Matte 254x512",
+            "cover_canal": "266",
+            "page_canal": "274",
+            "spine": "3407",
+            "lamination": "гля"
+        },
+        "Фотокнига SILK с кожаным корешком 20x20  с утолщ": {
+            "short_name": "КС Silk",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x390",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Silk 203x406",
+            "cover_canal": "240",
+            "page_canal": "208",
+            "spine": "2764",
+            "lamination": "гля"
+        },
+        "Фотокнига стандарт с кожаным корешком 20x20  с утолщением": {
+            "short_name": "КС",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x490",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "240",
+            "page_canal": "205",
+            "spine": "2764",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 25x25  с утолщением": {
+            "short_name": "КС",
+            "book_format": "25x25",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x690",
+            "cover_carton": "248x255",
+            "page_material": "Fuji CA Matte 254x512",
+            "cover_canal": "266",
+            "page_canal": "274",
+            "spine": "3283",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 10x10  без утолщения": {
+            "short_name": "КС",
+            "book_format": "10x10",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x264",
+            "cover_carton": "145х153",
+            "page_material": "Fuji CA Matte 300x102",
+            "cover_canal": "214",
+            "page_canal": "201",
+            "spine": "1464",
+            "lamination": "гля"
+        },
+        "Фотокнига стандарт с кожаным корешком 15x15  с утолщением": {
+            "short_name": "КС",
+            "book_format": "15x15",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x390",
+            "cover_carton": "145х153",
+            "page_material": "Fuji CA Matte 152x406",
+            "cover_canal": "205",
+            "page_canal": "214",
+            "spine": "1",
+            "lamination": "гля"
+        },
+        "Фотокнига Стандарт 30x30  с утолщением": {
+            "short_name": "КС",
+            "book_format": "30x30",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x300",
+            "page_material": "Fuji CA Matte 305x610",
+            "cover_canal": "poli",
+            "page_canal": "276",
+            "spine": "3696",
+            "lamination": "гля"
+        }
+    },
+    "Фотокнига ЛЮКС": {
+        "Фотокнига ЛЮКС 20x20  с утолщением": {
+            "short_name": "Люкс",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x600",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "164",
+            "page_canal": "205",
+            "spine": "2750",
+            "lamination": "мат"
+        },
+        "Фотокнига Кожа 20x30 гориз с утолщением": {
+            "short_name": "кКожа",
+            "book_format": "30x20г",
+            "book_option": "с/у",
+            "cover_material": "Raflatac 500",
+            "cover_carton": "293x205",
+            "page_material": "Fuji CA Matte 203x600",
+            "cover_canal": "poli",
+            "page_canal": "275",
+            "spine": "0",
+            "lamination": "мат"
+        },
+        "Фотокнига ЛЮКС 20x20 SILK  с утолщением 12": {
+            "short_name": "Люкс Silk",
+            "book_format": "20x20",
+            "book_option": "с/у1.2",
+            "cover_material": "Fuji Album 305x600",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Silk 203x406",
+            "cover_canal": "164",
+            "page_canal": "208",
+            "spine": "2750",
+            "lamination": "мат"
+        },
+        "Фотокнига ЛЮКС 20x20 SILK  без утолщения": {
+            "short_name": "Люкс Silk",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x600",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Silk 203x406",
+            "cover_canal": "164",
+            "page_canal": "208",
+            "spine": "2750",
+            "lamination": "мат"
+        },
+        "Фотокнига ЛЮКС 20x20 SILK  с утолщением": {
+            "short_name": "Люкс Silk",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x600",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "164",
+            "page_canal": "208",
+            "spine": "2750",
+            "lamination": "мат"
+        },
+        "Фотокнига ЛЮКС 10x10  с утолщением": {
+            "short_name": "Люкс",
+            "book_format": "10x10",
+            "book_option": "с/у",
+            "cover_material": "Fuji Album 305x500",
+            "cover_carton": "145х153",
+            "page_material": "Fuji CA Matte 300x102",
+            "cover_canal": "160",
+            "page_canal": "201",
+            "spine": "1582",
+            "lamination": "мат"
+        },
+        "Фотокнига ЛЮКС 15x15  без утолщения": {
+            "short_name": "Люкс",
+            "book_format": "15x15",
+            "book_option": "б/у",
+            "cover_material": "Fuji Album 305x500",
+            "cover_carton": "145х153",
+            "page_material": "Fuji CA Matte 152x304",
+            "cover_canal": "161",
+            "page_canal": "214",
+            "spine": "2184",
+            "lamination": "мат"
+        },
+        "Фотокнига ЛЮКС 25x25  с утолщением": {
+            "short_name": "Люкс",
+            "book_format": "25x25",
+            "book_option": "с/у",
+            "cover_material": "Fuji CA Matte 305x610",
+            "cover_carton": "248x255",
+            "page_material": "Fuji CA Matte 254x512",
+            "cover_canal": "266",
+            "page_canal": "274",
+            "spine": "3401",
+            "lamination": "мат"
+        }
+    },
+    "Фотокнига Flex Bind": {
+        "Фотокнига Flex Bind 20x30 гориз": {
+            "short_name": "ФБ",
+            "book_format": "30x20г",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x205",
+            "page_material": "Flex Bind 330x457",
+            "spine": "7456",
+            "lamination": "мат"
+        },
+        "Фотокнига Flex Bind 25x25": {
+            "short_name": "ФБ",
+            "book_format": "25x25",
+            "cover_material": "Omela 700",
+            "cover_carton": "255x255",
+            "page_material": "Flex Bind 330x330",
+            "spine": "3400",
+            "lamination": "мат"
+        },
+        "Фотокнига Flex Bind 20x20": {
+            "short_name": "ФБ",
+            "book_format": "20x20",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "Flex Bind 330x457",
+            "spine": "2810",
+            "lamination": "мат"
+        },
+        "Фотокнига Flex Bind 20x30 верт": {
+            "short_name": "ФБ",
+            "book_format": "20x30в",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x300",
+            "page_material": "Flex Bind 330x330",
+            "spine": "2751",
+            "lamination": "мат"
+        },
+        "Фотокнига Flex Bind 30x30": {
+            "short_name": "ФБ",
+            "book_format": "30x30",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x300",
+            "page_material": "Flex Bind 330x330",
+            "spine": "3932",
+            "lamination": "мат"
+        }
+    },
+    "Фотокнига Классик": {
+        "Фотокнига Классик 20x30 гориз без утолщения": {
+            "short_name": "КК",
+            "book_format": "30x20г",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x205",
+            "page_material": "Omela 700",
+            "cover_canal": "poli",
+            "page_canal": "275",
+            "spine": "180",
+            "lamination": "гля"
+        },
+        "Фотокнига Классик 20x30 верт без утолщения": {
+            "short_name": "кМикс",
+            "book_format": "20x30в",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Fuji CA Matte 305x402",
+            "cover_canal": "poli",
+            "page_canal": "207",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига Классик 20x20  без утолщения": {
+            "short_name": "КК",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "poli",
+            "page_canal": "205",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига Классик 25x25  без утолщения": {
+            "short_name": "КК",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "248x255",
+            "page_material": "Fuji CA Matte 305x610",
+            "cover_canal": "poli",
+            "page_canal": "274",
+            "spine": "3224",
+            "lamination": "гля"
+        },
+        "Фотокнига Классик 20x20  с утолщением": {
+            "short_name": "КК",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "poli",
+            "page_canal": "205",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига Классик 20x30 верт c утолщением": {
+            "short_name": "кМикс",
+            "book_format": "20x30в",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Fuji CA Matte 305x402",
+            "cover_canal": "poli",
+            "page_canal": "207",
+            "spine": "2574",
+            "lamination": "гля"
+        }
+    },
+    "Фотопланшет Стандарт": {
+        "Фотопланшет Стандарт 25x25  с утолщением": {
+            "short_name": "ПС",
+            "book_format": "25x25",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "255x255",
+            "page_material": "Fuji CA Matte 254x512",
+            "cover_canal": "poli",
+            "page_canal": "274",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 20x30 верт без утолщения": {
+            "short_name": "пМикс",
+            "book_format": "20x30в",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x300",
+            "page_material": "Fuji CA Matte 305x402",
+            "cover_canal": "poli",
+            "page_canal": "207",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 20x30 гориз без утолщения": {
+            "short_name": "ПС",
+            "book_format": "30x20г",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x205",
+            "page_material": "Fuji CA Matte 203x600",
+            "cover_canal": "poli",
+            "page_canal": "275",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 20x20  без утолщения": {
+            "short_name": "ПС",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "poli",
+            "page_canal": "205",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 20x30 верт с утолщением": {
+            "short_name": "пМикс",
+            "book_format": "20x30в",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x300",
+            "page_material": "Fuji CA Matte 305x402",
+            "cover_canal": "poli",
+            "page_canal": "207",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 20x30 гориз с утолщением": {
+            "short_name": "ПС",
+            "book_format": "30x20г",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x205",
+            "page_material": "Fuji CA Matte 203x600",
+            "cover_canal": "poli",
+            "page_canal": "275",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 25x25  без утолщения": {
+            "short_name": "ПС",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "255x255",
+            "page_material": "Fuji CA Matte 254x512",
+            "cover_canal": "poli",
+            "page_canal": "274",
+            "lamination": "гля"
+        },
+        "Фотопланшет Стандарт 20x20  с утолщением": {
+            "short_name": "ПС",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "Fuji CA Matte 203x406",
+            "cover_canal": "poli",
+            "page_canal": "205",
+            "lamination": "гля"
+        }
+    },
+    "Layflat": {
+        "Фотокнига Layflat 20x30 верт су 1 мм 2-4 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x30в",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Sappi SRA3",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x30 верт 2-4 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x30в",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Sappi SRA3",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x30 верт 5-9 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x30в",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 20x30 верт су 1 мм 5-9 разворотов": {
+            "short_name": "ПК",
+            "book_format": "20x30в",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x30 верт 10-35 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x30в",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 25x25 2-4 разворота": {
+            "short_name": "ПК",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Raflatac 700",
+            "cover_carton": "248x255",
+            "page_material": "Sappi 320x620",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 20x30 верт су 1 мм 10-35 разворотов": {
+            "short_name": "ПК",
+            "book_format": "20x30в",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x300",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 20x30 гориз су 1 мм от 5 до 9 разворотов": {
+            "short_name": "ПК",
+            "book_format": "30x20г",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x205",
+            "page_material": "Sappi 320x620",
+            "spine": "3755",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x20 5-9 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x205",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 30x30 10-35 разворота": {
+            "short_name": "ПК",
+            "book_format": "30x30",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x300",
+            "page_material": "Sappi 320x620",
+            "spine": "3755",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x20 2-4 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "Sappi SRA3",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x20 10-35 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x205",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 30x30 5-9 разворота": {
+            "short_name": "ПК",
+            "book_format": "30x30",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x300",
+            "page_material": "Sappi 320x620",
+            "spine": "3755",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 20x30 гориз от 2 до 4 разворотов": {
+            "short_name": "ПК",
+            "book_format": "30x20г",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x205",
+            "page_material": "Sappi 320x620",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 25x25 су 1 мм 10-35 разворота": {
+            "short_name": "ПК",
+            "book_format": "25x25",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "248x255",
+            "page_material": "Sappi 320x620",
+            "spine": "3224",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 20x20 су 1 мм 2-4 разворота": {
+            "short_name": "ПК",
+            "book_format": "20x20",
+            "book_option": "с/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "Sappi SRA3",
+            "spine": "0",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 25x25 5-9 разворота": {
+            "short_name": "ПК",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "248x255",
+            "page_material": "Sappi 320x620",
+            "spine": "3224",
+            "lamination": "гля"
+        },
+        "Фотокнига полиграфическая Layflat 25x25 10-35 разворота": {
+            "short_name": "ПК",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "248x255",
+            "page_material": "Sappi 320x620",
+            "spine": "3224",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 30x30 су 1 мм 10-35 разворота": {
+            "short_name": "ПК",
+            "book_format": "30x30",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x300",
+            "page_material": "Sappi 320x620",
+            "spine": "3755",
+            "lamination": "гля"
+        },
+        "Фотокнига LAYFLAT 25x25": {
+            "short_name": "ППК",
+            "book_format": "25x25",
+            "book_option": "б/у",
+            "cover_material": "Sappi 320x620",
+            "cover_carton": "248x255",
+            "page_material": "Omela 700",
+            "spine": "3224",
+            "lamination": "гля"
+        },
+        "Фотокнига Layflat 30x30 су 1 мм 5-9 разворота": {
+            "short_name": "ПК",
+            "book_format": "30x30",
+            "book_option": "с/у",
+            "cover_material": "Omela 700",
+            "cover_carton": "293x300",
+            "page_material": "Sappi 320x620",
+            "spine": "3755",
+            "lamination": "гля"
+        },
+        "Фотокнига LAYFLAT 20x20": {
+            "short_name": "ППК",
+            "book_format": "20x20",
+            "book_option": "б/у",
+            "cover_material": "Omela 500",
+            "cover_carton": "193x205",
+            "page_material": "Sappi SRA3",
+            "spine": "2574",
+            "lamination": "гля"
+        }
+    },
+    "Фотоальбом полиграфический": {
+        "Фотоальбом полиграфический 20x30 верт": {
+            "short_name": "ПА",
+            "book_format": "20x30в",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x300",
+            "page_material": "UPM SRA4 170",
+            "spine": "2716",
+            "lamination": "гля"
+        },
+        "Фотоальбом полиграфический 25x25": {
+            "short_name": "ПА",
+            "book_format": "25x25",
+            "cover_material": "Omela 700",
+            "cover_carton": "255x255",
+            "page_material": "UPM SRA3 170",
+            "spine": "3365",
+            "lamination": "гля"
+        },
+        "Фотоальбом полиграфический 30x30": {
+            "short_name": "ПА",
+            "book_format": "30x30",
+            "cover_material": "Raflatac 700",
+            "cover_carton": "300x300",
+            "page_material": "UPM SRA3 170",
+            "spine": "3897",
+            "lamination": "гля"
+        },
+        "Фотоальбом полиграфический 20x30 гориз": {
+            "short_name": "ПА",
+            "book_format": "30x20г",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x205",
+            "page_material": "UPM SRA3 170",
+            "spine": "3838",
+            "lamination": "гля"
+        },
+        "Фотоальбом полиграфический 20x20": {
+            "short_name": "ПА",
+            "book_format": "20x20",
+            "cover_material": "Omela 500",
+            "cover_carton": "200x205",
+            "page_material": "UPM SRA4 170",
+            "spine": "2716",
+            "lamination": "гля"
+        }
+    },
+    "Фотоальбом PUR": {
+        "Фотоальбом PUR 20x30 гориз": {
+            "short_name": "ПУР",
+            "book_format": "30x20г",
+            "cover_material": "Omela 700",
+            "cover_carton": "300x205",
+            "page_material": "UPM SRA4 150",
+            "spine": "3838",
+            "lamination": "гля"
+        },
+        "Фотоальбом PUR 25x25": {
+            "short_name": "ПУР",
+            "book_format": "25x25",
+            "cover_material": "Omela 700",
+            "cover_carton": "255x255",
+            "page_material": "UPM SRA4 150",
+            "spine": "3365",
+            "lamination": "гля"
+        }
+    },
+    "Фотожурнал": {
+        "Фотожурнал 20x30 верт": {
+            "short_name": "Журнал",
+            "book_format": "20x30в",
+            "cover_material": "UPM SRA3 250",
+            "page_material": "UPM SRA3 170"
+        }
+    },
+    "Фотопапка": {
+        "Фотопапка ТРИО 20x30": {
+            "short_name": "Трио",
+            "book_format": "20x30в",
+            "cover_material": "Raflatac 700",
+            "cover_carton": "200x300 2.0",
+            "page_material": "Raflatac 700",
+            "lamination": "гля"
+        },
+        "Фотопапка ДУО 20x30 горизонт": {
+            "short_name": "Дуо гор",
+            "book_format": "30x20г",
+            "cover_material": "Raflatac 700",
+            "cover_carton": "200x300 2.0",
+            "page_material": "Raflatac 700",
+            "lamination": "гля"
+        },
+        "-Фотопапка ДУО 20x30": {
+            "short_name": "Дуо",
+            "book_format": "20x30в",
+            "cover_material": "Raflatac 500",
+            "cover_carton": "200x300 2.0",
+            "page_material": "Raflatac 500",
+            "lamination": "гля"
+        }
+    },
+    "Фотопечать SRA": {
+        "Фотопечать SRA3 170гр вертикаль 40": {
+            "short_name": "+полигр фото",
+            "cover_material": "UPM SRA3 170"
+        },
+        "Фотопечать SRA4 170гр вертикаль 40": {
+            "short_name": "+полигр фото",
+            "cover_material": "UPM SRA4 170"
+        },
+        "Фотопечать SRA3 250гр вертикаль 40": {
+            "short_name": "+полигр фото",
+            "cover_material": "UPM SRA3 250"
+        }
+    },
+    "Фотопечать": {
+        "Фотопечать 1015 горизонт": {
+            "short_name": "+фото",
+            "cover_material": "Fuji CA 102x152"
+        },
+        "Фотопечать 3040 горизонт": {
+            "short_name": "+фото",
+            "cover_material": "Fuji CA 305x406"
+        },
+        "Фотопечать 2130 вертикаль": {
+            "short_name": "+фото",
+            "cover_material": "Fuji CA 305x210"
+        },
+        "Фотопечать 1015 вертикаль": {
+            "short_name": "+фото",
+            "cover_material": "Fuji CA 102x152"
+        }
+    },
+    "Субпродукты": {}
+}
