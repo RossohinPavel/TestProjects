@@ -3,7 +3,7 @@ from PIL import Image, ImageGrab
 from telebot import types
 
 
-bot = telebot.TeleBot('5454616699:AAH5wNICmXp6E5rIhfDMeIHuDVY-oM2_lY4')
+bot = telebot.TeleBot('')
 my_id = 734916032
 
 
