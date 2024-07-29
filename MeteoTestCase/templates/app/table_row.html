@@ -1,0 +1,11 @@
+<tr>
+	<td align="right">{{name}}</td>
+	{% for el in data %}
+		<td align="center">
+			{{ el }}
+			{% if suff %}
+				{{ suff }}
+			{% endif %}
+		</td>
+	{% endfor %}
+</tr>

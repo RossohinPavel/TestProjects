@@ -1,0 +1,71 @@
+[
+{
+  "model": "app.country",
+  "pk": 1,
+  "fields": {
+    "name": "Франция",
+    "querys": 3
+  }
+},
+{
+  "model": "app.country",
+  "pk": 2,
+  "fields": {
+    "name": "Россия",
+    "querys": 5
+  }
+},
+{
+  "model": "app.country",
+  "pk": 3,
+  "fields": {
+    "name": "США",
+    "querys": 1
+  }
+},
+{
+  "model": "app.city",
+  "pk": 1,
+  "fields": {
+    "name": "Париж",
+    "querys": 2,
+    "country": 1
+  }
+},
+{
+  "model": "app.city",
+  "pk": 2,
+  "fields": {
+    "name": "Лион",
+    "querys": 1,
+    "country": 1
+  }
+},
+{
+  "model": "app.city",
+  "pk": 3,
+  "fields": {
+    "name": "Киров",
+    "querys": 2,
+    "country": 2
+  }
+},
+{
+  "model": "app.city",
+  "pk": 4,
+  "fields": {
+    "name": "Москва",
+    "querys": 3,
+    "country": 2
+  }
+},
+{
+  "model": "app.city",
+  "pk": 5,
+  "fields": {
+    "name": "Вашингтон",
+    "querys": 1,
+    "country": 3
+  }
+}
+]

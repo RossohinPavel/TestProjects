@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load my_tags %}
+
+<div class="container">
+    <div class="row">
+        <div class="card box-shadow m-2 form-wrap">
+
+            <div class="card-header text-center">
+                <h3>Прогноз погоды</h3>
+            </div>
+
+            <div class="card-row">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <span>
+                        <input class="input-row" type="text" name="city" id="city" required placeholder="Введите название города" />
+                    </span>
+                    <span class="submit-btn mt-3">
+                        <button type="submit" class="btn btn-primary">Получить прогноз</button>
+                    </span>
+                </form>   
+            </div>
+
+            {% if error %}
+                <div align="center">
+                    <h5>{{ error }}</h5>
+                </div>
+            {% endif %}
+
+            {% if forecast %}
+                <div align="center">
+                    <h5>{{forecast.country}}: {{forecast.city}}</h5>
+                </div>
+                <table cellpadding="4" rules="all">
+                    {% list_to_table_row 'Дата:' forecast.daily.time %}
+                    {% list_to_table_row 'Днем до:' forecast.daily.temperature_2m_max forecast.daily_units.temperature_2m_max %}
+                    {% list_to_table_row 'Ночью от:' forecast.daily.temperature_2m_min forecast.daily_units.temperature_2m_min %}
+                    {% list_to_table_row 'Вероятность осадков:' forecast.daily.precipitation_probability_max forecast.daily_units.precipitation_probability_max%}
+                    {% list_to_table_row 'Скорость ветра:' forecast.daily.wind_speed_10m_max forecast.daily_units.wind_speed_10m_max %}              
+                </table>
+            {% endif %}
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
