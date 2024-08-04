@@ -1,0 +1,4 @@
+.env
+mongodata
+redisdata
+*__pycache__

@@ -1,0 +1,49 @@
+x-common-variables: &common-enviroment
+  environment:
+    - MONGO_INITDB_ROOT_USERNAME
+    - MONGO_INITDB_ROOT_PASSWORD
+    - BOT_TOKEN
+
+
+services:
+  mongo:
+    restart: unless-stopped
+    image: mongo:8.0-rc-jammy
+    volumes:
+      - ./mongodata:/data/db
+    <<: *common-enviroment
+
+  app:
+    restart: unless-stopped
+    build:
+      context: ./app
+    volumes:
+      - ./app:/app
+    <<: *common-enviroment
+    depends_on:
+      - mongo
+
+  nginx:
+    restart: unless-stopped
+    build:
+      context: ./nginx
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - app
+  
+  bot:
+    restart: unless-stopped
+    build:
+      context: ./bot
+    volumes:
+      - ./bot:/bot
+    <<: *common-enviroment
+    depends_on:
+      - app
+
+  redis:
+    image: redis:7.4-alpine
+    volumes:
+      - ./redisdata:/data
