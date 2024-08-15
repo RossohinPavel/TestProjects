@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8" />
+    {% load menu_tags %}
+</head>
+<body>
+    <div>
+        {% draw_menu 'main_menu' %}
+        <br>
+        {% draw_menu 'sub_menu' %}
+    </div>
+    <hr style="width: 300px;">
+    <div style="text-align: center;">
+        {{ request.path }}
+    </div>
+</body>
+</html>

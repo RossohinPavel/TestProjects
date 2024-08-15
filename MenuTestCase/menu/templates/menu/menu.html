@@ -1,0 +1,16 @@
+{% load menu_tags %}
+
+{% for menu in menus %}
+<div>
+	<ul>
+		{% for item in menu.items.all %}
+			<li style="margin: 0px">
+				<a href="{{ item.get_url }}">{{ item.title }}</a>
+			</li>
+			{% if item.url in context.request.path %}
+				{% draw_menu item.url menus %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</div>
+{% endfor %}
