@@ -105,7 +105,7 @@ class DjangoProjectCreator:
         ]
         for dep in self.dependencies:
             cmds.append(f'pip install {dep}')
-        cmds.append('pip freeze > django/requirements.txt')
+        cmds.append(f'pip freeze > {os.path.join(self.django_dir, 'requirements.txt')}')
         self.console_call(*cmds, venv=True)
         
     @console_output(True)
