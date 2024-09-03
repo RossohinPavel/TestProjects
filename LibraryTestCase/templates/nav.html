@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block navigation %}
+<div class="container">
+	<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <h2 class="myptag">Библиотека</h2>
+		{% if user.is_authenticated %}
+		<ul class="nav nav-pills myul" id="nav-bar">
+			{% for key, value in links.items %}
+			    <li class="nav-item" id="{{ key }}">
+			    	<a href="{% url value %}" class="nav-link">{{ key }}</a>
+			    </li>
+			{% endfor %}
+		</ul>
+		<div class="dropdown">
+			<button class="btn btn-primary">{{ user.username }}</button>
+			<div class="dropdown-content">
+				<a href="{% url 'user' %}">Карточка</a>
+				<form id="myform" action="{% url 'logout' %}" method="post">
+					{% csrf_token %}
+					<a href="#" onclick="document.getElementById('myform').submit();">Выход</a>
+				</form>
+			</div>
+		  </div>
+		{% else %}
+		<div style="margin-left: auto;">
+			<a href="{% url 'register' %}" class="btn btn-outline-primary me-2">Регистрация</a>
+			<a href="{% url 'login' %}" class="btn btn-primary">Войти</a>
+		</div>
+		{% endif %}
+		</form>
+	</header>
+</div>
+<script src="{% static 'js/nav-selector.js' %}"></script>
+{% endblock %}

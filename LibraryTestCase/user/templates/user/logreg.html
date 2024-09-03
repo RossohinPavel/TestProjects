@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<form class="card register" method="post">
+    <h3>{{ title }}</h3>
+    {% csrf_token %}
+    <input type="hidden" name="next" value="{{ next }}" />
+    <div class="form-error">{{ form.non_field_errors }}</div>
+    {% for f in form %}
+        <p class="myptag">
+            <div>{{ f.label }}</div>
+            <div>{{ f }}</div>
+        </p>
+    <div class="form-error">{{ f.errors }}</div>
+    {% endfor %}
+    <p>
+        <button type="submit" class="btn btn-success register-btn">{{ button_label}}</button>
+    </p>
+</form>
+{% endblock %}

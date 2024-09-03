@@ -1,0 +1,29 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block content %}
+<div class="book_block">
+    {% for book in page_obj %}
+        <div class="card book">
+            <button class="btn btn-link", style="padding: 0">
+                <h4 title="Нажми, чтобы скопировать название в буфер обмена" id="clipboard">{{ book.title }}</h4>
+            </button>
+            {% if title == "Список книг"%}
+                <p class="myptag">Автор: {{book.author}}</p>
+                <p class="myptag">Жанр: {{book.genre}}</p>
+            {% else %}
+                <p class="myptag">Дата получения: {{book.history_date}}</p>
+                <p class="myptag">На руках: {{book.duration}} дней</p>
+            {% endif %}
+            <form method="post">
+                {% csrf_token %}
+                <input type="hidden" name="book_id" value="{{ book.pk }}">
+                {% include "books/list_book_btn.html" %}
+            </form>
+        </div>
+    {% endfor %}
+    {% if paginator.num_pages > 1 %}
+        {% include "pagination.html" %}
+    {% endif %}
+</div>
+<script src="{% static 'js/bookList.js' %}"></script>
+{% endblock %}

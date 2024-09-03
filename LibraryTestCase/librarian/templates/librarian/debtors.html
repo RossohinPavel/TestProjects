@@ -1,0 +1,22 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block content %}
+<div class="book_block">
+    {% for book in page_obj %}
+        <div class="card book">
+            <button class="btn btn-link", style="padding: 0">
+                <h4 title="Нажми, чтобы скопировать название в буфер обмена" id="clipboard">{{ book.title }}</h4>
+            </button>
+            <p class="myptag">Пользователь: {{ book.reader.username }}</p>
+            <p class="myptag">Имя: {{ book.reader.first_name }}</p>
+            <p class="myptag">Фамилия: {{ book.reader.last_name }}</p>
+            <p class="myptag">Адрес: {{ book.reader.address }}</p>
+            <p class="myptag">Дата получения: {{book.history_date}}</p>
+            <p class="myptag">На руках: {{book.duration}} дней</p>
+        </div>
+    {% endfor %}
+    {% if paginator.num_pages > 1 %}
+        {% include "pagination.html" %}
+    {% endif %}
+</div>
+{% endblock %}

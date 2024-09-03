@@ -1,0 +1,7 @@
+{% load book_btn %}
+{% get_book_btn user book as btn %}
+{% if btn.enabled %}
+    <button type="submit" class="btn btn-primary" style="float: right">{{ btn.title }}</button>
+{% else %}
+    <button type="button" class="btn btn-outline-secondary" style="float: right" disabled>{{ btn.title }}</button>
+{% endif %}
