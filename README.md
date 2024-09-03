@@ -8,6 +8,7 @@
 * Brandquad - Написание Django Managment Commant для парсинга nginx-лога.
 * FastAPIMessanger - Приложение-месенджер. Серверная часть на FastAPI, база данных - MongoDB с кешированием Redis. Клиентская часть - aiogram.
 * HardcodePythonBackend - Доработка API на Django Rest Framework по созданию серивиса обучающих курсов.
+* LibraryTestCase - Создание приложения для библиотеки с разными ролями пользователей.
 * MenusTestCase - Простое приложение на чистом django, которое реализует функционал меню.
 * MeteoTestCase - небольшое приложение на django для просмотра погоды
 * TelethonTestCase - веб приложение на django/telethon. Телеграм клиент с возможностью сохранения и отправки сообщений, парсинг wildberrys.
