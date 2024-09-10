@@ -33,7 +33,7 @@ class DjangoProjectCreator:
             venv_dir_name=namespace.venv_dir_name,
             dependencies=namespace.dependencies
         )
-    
+
     @staticmethod
     def set_dependicies_list(dependencies: list[str] | None) -> list:
         """Кофигурирует список зависимостей для установки. По умолчанию, ставится django последней версии"""
@@ -60,14 +60,11 @@ class DjangoProjectCreator:
                     print('-' * 30, end="", flush=True)
                 print(' ... \033[32mdone\033[0m')
                 return res
-        
             wrapper.__name__ = func.__name__
             wrapper.__doc__ = func.__doc__
-
             return wrapper
-        
         return decorator
-    
+
     def console_call(self, *args, venv=False):
         """
         Вызов комманд перечисленных в args как команд ОС. 
@@ -84,12 +81,16 @@ class DjangoProjectCreator:
         """Preparing workspace"""
         if os.path.exists(self.project_name):
             shutil.rmtree(self.project_name)
+        apps = os.path.join(self.django_dir, 'apps')
         dirs = (
             self.project_name,  # Основной каталог проекта
-            self.django_dir     # Каталог с джаногой
+            self.django_dir,    # Каталог с джаногой
+            apps
         )
         for d in dirs:
             os.mkdir(d)
+        with open(os.path.join(apps, '__init__.py'), 'w', encoding='utf-8') as file:
+            pass
 
     @console_output()
     def creating_virtual_enviroment(self):
@@ -123,8 +124,6 @@ class DjangoProjectCreator:
             f'echo {superuser_script} | python {manage} shell'
         )
         self.console_call(*cmds, venv=True)
-        apps = os.path.join(self.django_dir, 'apps')
-        os.mkdir(apps)
 
     @console_output()
     def create_gitignore(self):
