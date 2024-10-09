@@ -1,0 +1,18 @@
+# Python things
+venv
+__pycache__
+
+# Vue things
+node_modules
+
+# Enviroment variables
+.env
+
+# Database files
+*.sqlite3
+postgresdata
+
+# Other staff
+*.crt
+*.key
+.vscode

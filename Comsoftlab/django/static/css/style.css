@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.progress {
+	width: 75%;
+	text-align: center;
+	margin: auto;
+}
+
+.progress-bar {
+	width: 100%;
+}
+
+.table-container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	border: 1px solid #dee2e6;
+	border-radius: 0.5rem;
+	padding: 15px;
+}

@@ -1,0 +1,23 @@
+{% load main_tags %}
+<div class="my_row" style="margin-bottom: 10px;">
+    <div style="display: flex;">
+        <h3>{{data.name}}</h3>
+        {% if data.back_url %}
+            <a href="{% url 'home' %}?url={{data.back_url}}" class="btn btn-link">Назад</a>
+        {% endif %}
+    </div>
+    <div style="display: flex;">
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Фильтр
+            </button>
+            <ul class="dropdown-menu">
+                {% get_filter_menu_item '__all__' data.select %}
+                {% for filter in data.filters %}
+                    {% get_filter_menu_item filter data.select %}
+                {% endfor %}
+            </ul>
+        </div>
+        <a href="{{data.download_all}}" class="btn btn-link">Скачать все</a>
+    </div>
+</div>

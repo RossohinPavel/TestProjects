@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Work Station <rossohinpavel@yandex.ru>"]
+readme = "README.md"
+package-mode = false
+
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.114.2"
+uvicorn = "^0.30.6"
+sqlalchemy = "^2.0.34"
+alembic = "^1.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+backend = 'src.main:from_poetry'

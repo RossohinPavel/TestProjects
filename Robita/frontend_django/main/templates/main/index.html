@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robita</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="Main">
+        <h1>{{message}}</h1>
+        {% comment %} <img src="{{ url_for('static', filename='bot.png') }}" alt=""> {% endcomment %}
+        <p></p>
+        <button class="btn f-btn">Тест отправки данных</button>
+    </div>
+    <form class="test-form">    
+        <input type="text" placeholder="Введите заголовок" class="title-inp">
+        <input type="text" placeholder="Введите описание" class="desc-inp">
+        <input type="text" placeholder="Введите текст" class="text-inp">
+        <button class="btn s-btn">Отправить</button>
+    </form>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <script>
+        let tg = window.Telegram.WebApp;
+
+        let fBtn = document.getElementsByClassName("f-btn")[0]
+        let sBtn = document.getElementsByClassName("s-btn")[0]
+
+        fBtn.addEventListener("click", () => {
+            document.getElementsByClassName("Main")[0].style.display = "none";
+            document.getElementsByClassName("test-form")[0].style.display = "block";
+        });
+
+        sBtn.addEventListener("click", () => {
+            tg.close();
+        });
+    </script>
+</body>
+</html>

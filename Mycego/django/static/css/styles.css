@@ -1,0 +1,40 @@
+.container {
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	overflow: auto;
+}
+
+.input-form {
+	margin: 5px;
+	min-width: 95%;
+	position: relative;
+	display: flex;
+}
+
+.my-btn {
+	min-height: 100%;
+	width: 90px;
+	vertical-align: bottom;
+	float: right;
+	margin-left: 5px;
+}
+
+.line {
+	width: 75%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.data {
+	height: auto;
+	flex-direction: column;
+}
+
+.my_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
